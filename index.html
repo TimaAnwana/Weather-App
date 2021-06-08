@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework2</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body class="border p-5 mt-5 mb-5 mr-3 ml-3 shadow">
+    <div class="container">
+        <span class="border"></span>
+        <span class="border-top"></span>
+        <span class="border-end"></span>
+        <span class="border-bottom"></span>
+        <span class="border-start"></span>
+
+        <form id="search-form">
+            <input type="text" placeholder="Enter your city" autocomplete="off" autofocus="on" id="search-text-input" />
+            <input type="submit" value="Search" />
+        </form>
+
+        <button>
+            Current Location
+        </button>
+
+        <h1>
+            Lagos
+        </h1>
+
+        <h2>
+            Saturday 11:04
+        </h2>
+
+        <p id="temperature-description">Sunny</p>
+
+        <div class="tempcircle">
+            <div id="hightemp">35</div>
+        </div>
+
+        <table class="table table-dark table-hover table-sm">
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td>TUE</td>
+                    <td class="emoji">☼</td>
+                    <td>36°/23°</td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>WED</td>
+                    <td class="emoji">☁</td>
+                    <td>25°/19°</td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>THU</td>
+                    <td class="emoji">☼</td>
+                    <td>30°/23°</td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>FRI</td>
+                    <td class="emoji">☂</td>
+                    <td>25°/18°</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
