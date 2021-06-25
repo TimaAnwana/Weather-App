@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework2</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -33,21 +33,14 @@
             Lagos
         </h1>
 
-        <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="clare" class="weathericon" id="icon" />
-
         <h2>
             Saturday 11:04
         </h2>
 
         <p id="temperature-description">Sunny</p>
 
-        <p id="humidity-description">Humidity: 1%</p>
-
-        <p id="wind-description">Wind: 23Km/h</p>
-
         <div class="tempcircle">
-            <a href="#" id="hightemp"> 35°C</a>
-            <a href="#" id="celsius-link"></a>
+            <div id="hightemp">35</div>
         </div>
 
         <table class="table table-dark table-hover table-sm">
@@ -80,10 +73,9 @@
             </tbody>
         </table>
     </div>
-
     <a href="https://github.com/TimaAnwana/Weather-App"> Github Repository</a>
 
-    <script src="index.js"></script>
+    <script src="src/index.js"></script>
 </body>
 
 </html>
